@@ -591,3 +591,5 @@ assets, kept for reference. It is excluded from the build, type checks,
 formatting and Tailwind. The real logo, white wordmark and hero photo were
 copied from there into `public/images/`. See `legacy/README.md` for what each
 file is.
+
+Development branch: Keystatic browser editor testing.
