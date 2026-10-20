@@ -9,34 +9,12 @@ headerAction: {}
 footerTagline: Learn. Play. Work. Innovate.
 footerLocation: Edinburg, Texas
 footerColumns:
-  - heading: Explore
-    links:
-      - label: Schools & Districts
-        href: /solutions/
-      - label: Programs
-        href: /programs/
-      - label: Pre-ETS
-        href: /workforce/pre-ets/
-      - label: Impact
-        href: /impact/
-  - heading: For Families
-    links:
-      - label: Parent Programs
-        href: /families/parents/
-      - label: Homeschool Programs
-        href: /families/homeschool/
-      - label: Current Programs
-        href: /programs/
   - heading: Company
     links:
       - label: About
         href: /about/
       - label: Contact Nerdvana
         href: /contact/
-      - label: Accessibility
-        href: /policies/#accessibility
-      - label: Privacy
-        href: /policies/#privacy
 contact:
   email: ' '
   phone: ' '
