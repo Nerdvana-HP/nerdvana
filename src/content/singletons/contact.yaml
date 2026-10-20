@@ -1,12 +1,15 @@
 seo:
-  title: '[PLACEHOLDER] Planning & contact'
-  description: '[PLACEHOLDER] Search result description for the planning & contact page.'
+  title: Plan a Partnership | Nerdvana
+  description: >-
+    Explore STEM and workforce partnerships with Nerdvana. Tell us your goals
+    and start a conversation about programs for your students.
 hero:
-  eyebrow: '[PLACEHOLDER] Eyebrow'
-  heading: '[PLACEHOLDER] Planning & contact heading'
+  eyebrow: Plan a partnership
+  heading: Let’s explore what your students need.
   lede: >-
-    [PLACEHOLDER] One or two sentences introducing this page. Long enough to
-    show how an intro paragraph wraps across lines.
+    Whether you’re exploring after-school or summer STEM, an engineering
+    residency, or a Pre-ETS workforce program, tell us what you have in mind.
+    We’ll follow up to learn more about your goals and discuss next steps.
   primaryAction: {}
   secondaryAction: {}
   image: {}
