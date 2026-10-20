@@ -13,19 +13,19 @@ hero:
     partners plan and deliver programs that fit their goals, setting, and
     learners.
   primaryAction:
-    label: '[PLACEHOLDER] Plan a partnership'
+    label: Plan a partnership
     href: /contact/
   secondaryAction:
-    label: '[PLACEHOLDER] See programs'
+    label: See programs
     href: /programs/
   image:
-    src: /images/singletons/about/hero/image/src.svg
-    alt: '[PLACEHOLDER] Description of the about hero image'
+    src: /images/singletons/about/hero/image/src.jpg
+    alt: Engineering Residency Planning
 story:
   heading: Experience built through partnership
   body: >
-    Nerdvana has reached more than 50,000 K–12 students across Texas and India
-    and worked with 25+ school districts, nonprofits, and government
+    Nerdvana has reached **more than 50,000 K–12 students across Texas and
+    India** and worked with 25+ school districts, nonprofits, and government
     organizations across Texas. Our partnerships include after-school and summer
     STEM programs, engineering residencies, and workforce-readiness programming.
 proof:
