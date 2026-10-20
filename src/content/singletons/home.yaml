@@ -20,8 +20,11 @@ intro:
   body: >
     Nerdvana partners with schools, districts, and workforce organizations to
     plan and deliver STEM enrichment, engineering residencies, and
-    workforce-readiness programming. We help turn institutional goals into
-    structured programs and hands-on learning students can experience.
+    workforce-readiness programming.
+
+
+    We help turn institutional goals into structured programs and hands-on
+    learning students can experience.
   primaryAction:
     label: Plan a Partnership
     href: /contact/
