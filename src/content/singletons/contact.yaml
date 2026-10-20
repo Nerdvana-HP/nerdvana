@@ -34,8 +34,7 @@ form:
   selectPrompt: '[PLACEHOLDER] Choose one'
   submitLabel: Send inquiry
 direct:
-  heading: '[PLACEHOLDER] Contact us directly'
-  intro: '[PLACEHOLDER] One line about direct contact.'
+  heading: ' '
 thanks:
   seo:
     title: '[PLACEHOLDER] Thank you'
