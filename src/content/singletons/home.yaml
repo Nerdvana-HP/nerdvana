@@ -71,8 +71,6 @@ proof:
       label: K–12 students reached across Texas and India
     - value: 25+
       label: Districts, Universities, and Governmental partners
-    - value: 150+
-      label: Pre-ETS participants
 audienceRouter:
   eyebrow: Partnerships for institutional needs
   heading: Built to work with your students and setting
