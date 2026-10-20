@@ -69,8 +69,8 @@ proof:
       label: Delivering STEM programming
     - value: 50,000+
       label: K–12 students reached across Texas and India
-    - value: '19'
-      label: Districts, nonprofits, and government organizations across Texas
+    - value: 25+
+      label: Districts, Universities, and Governmental partners
     - value: 150+
       label: Pre-ETS participants
 audienceRouter:
