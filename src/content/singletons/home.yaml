@@ -1,6 +1,9 @@
 seo:
-  title: Nerdvana | Hands-On STEM Programs for Schools
-  description: '[PLACEHOLDER] Search result description for the home page.'
+  title: Nerdvana | STEM Partnerships for Schools
+  description: >-
+    Explore how Nerdvana partners with schools, districts, and workforce
+    organizations through STEM enrichment, engineering residencies, and
+    workforce readiness.
 hero:
   heading: Nerdvana
   logo: /images/singletons/home/hero/logo.png
@@ -12,119 +15,89 @@ hero:
   background:
     src: /images/singletons/home/hero/background/src.jpg
 intro:
-  eyebrow: Why should you choose us?
-  heading: Reach YOUR Nerdvana
+  eyebrow: STEM implementation for schools and districts
+  heading: Bring hands-on STEM learning to life.
   body: >
-    [PLACEHOLDER] Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text.
+    Nerdvana partners with schools, districts, and workforce organizations to
+    plan and deliver STEM enrichment, engineering residencies, and
+    workforce-readiness programming. We help turn institutional goals into
+    structured programs and hands-on learning students can experience.
   primaryAction:
     label: Plan a Partnership
     href: /contact/
   secondaryAction:
-    label: Explore Programs
-    href: /programs/
+    label: Explore Our Partnerships
+    href: /#carousel-107
 spotlight:
-  heading: '[PLACEHOLDER] Template Header'
+  heading: Four ways to partner with Nerdvana
   cards:
     - image:
         src: /images/singletons/home/spotlight/cards/0/image/src.svg
         alt: '[PLACEHOLDER] Description of card 1 image'
-      label: '[PLACEHOLDER] Template button 1'
-      href: /programs/
+      label: After-School STEM Partnerships
+      href: /contact/
     - image:
         src: /images/singletons/home/spotlight/cards/1/image/src.svg
         alt: '[PLACEHOLDER] Description of card 2 image'
-      label: '[PLACEHOLDER] Template button 2'
-      href: /programs/
+      label: Summer STEM Partnerships
+      href: /contact/
     - image:
         src: /images/singletons/home/spotlight/cards/2/image/src.svg
         alt: '[PLACEHOLDER] Description of card 3 image'
-      label: '[PLACEHOLDER] Template button 3'
-      href: /programs/
+      label: Engineering Residencies
+      href: /contact/
     - image:
         src: /images/singletons/home/spotlight/cards/3/image/src.svg
         alt: '[PLACEHOLDER] Description of card 4 image'
-      label: '[PLACEHOLDER] Template button 4'
-      href: /programs/
-    - image:
-        src: /images/singletons/home/spotlight/cards/4/image/src.svg
-        alt: '[PLACEHOLDER] Description of card 5 image'
-      label: '[PLACEHOLDER] Template button 5'
-      href: /programs/
+      label: Pre-ETS Workforce Programs
+      href: /contact/
 story:
-  eyebrow: '[PLACEHOLDER] Subheading'
-  heading: '[PLACEHOLDER] Template Header'
+  eyebrow: Programs built around partnership
+  heading: Four offerings. A range of STEM experiences.
   body: >
-    [PLACEHOLDER] Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text.
+    From robotics and drone automation to aerospace, forensic science,
+    engineering design, and smart wearables, students tackle hands-on challenges
+    by designing, building, testing, and improving solutions. Technology isn’t
+    the goal; it’s a tool for solving real engineering problems.
 proof:
   items:
-    - value: X,XXX+
-      label: students served
-    - value: XX
-      label: school / district partners
-    - value: XX+
-      label: program implementations
-    - value: XX
-      label: '[PLACEHOLDER] Another possible statistic'
+    - value: 10 years
+      label: Delivering STEM programming
+    - value: 50,000+
+      label: K–12 students reached across Texas and India
+    - value: '19'
+      label: Districts, nonprofits, and government organizations across Texas
+    - value: 150+
+      label: Pre-ETS participants
 audienceRouter:
-  eyebrow: '[PLACEHOLDER] Subheading'
-  heading: '[PLACEHOLDER] Template Header'
+  eyebrow: Partnerships for institutional needs
+  heading: Built to work with your students and setting
   intro: >-
-    [PLACEHOLDER] Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text Body text Body
-    text Body text Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text.
+    Nerdvana works with schools, districts, and workforce organizations to bring
+    structured STEM and workforce-readiness programming into practice.
   cards:
-    - label: '[PLACEHOLDER] Header 1'
+    - label: Schools & Districts
       description: >-
-        [PLACEHOLDER] Body text Body text Body text Body text Body text Body
-        text.
-      linkLabel: '[PLACEHOLDER] Template Link'
-      href: /solutions/
-    - label: '[PLACEHOLDER] Header 2'
+        Build recurring or seasonal STEM programming around your students and
+        school priorities.
+      href: /contact/
+    - label: Workforce & Pre-ETS Partners
       description: >-
-        [PLACEHOLDER] Body text Body text Body text Body text Body text Body
-        text.
-      linkLabel: '[PLACEHOLDER] Template Link'
-      href: /families/parents/
-    - label: '[PLACEHOLDER] Header 3'
+        Explore workforce-readiness programming for eligible students with
+        disabilities.
+      href: /contact/
+    - label: Education Partners
       description: >-
-        [PLACEHOLDER] Body text Body text Body text Body text Body text Body
-        text.
-      linkLabel: '[PLACEHOLDER] Template Link'
-      href: /workforce/pre-ets/
+        Talk with Nerdvana about bringing hands-on STEM and engineering
+        experiences into your learning setting.
+      href: /contact/
 cta:
-  heading: '[PLACEHOLDER] Template Call to action!'
-  expectation: >-
-    [PLACEHOLDER] Body text Body text Body text Body text Body text Body text
-    Body text Body text Body text Body text Body text Body text.
+  heading: Let’s plan a STEM partnership for your students.
+  expectation: Start a conversation about your goals, students, and setting.
   action:
     label: Plan a Partnership
     href: /contact/
   secondaryAction:
-    label: Explore Programs
-    href: /programs/
+    label: Explore Our Partnerships
+    href: /#carousel-107
   sourceTag: home-cta
