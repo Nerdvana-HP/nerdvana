@@ -17,7 +17,7 @@ hero:
     href: /contact/
   secondaryAction:
     label: See programs
-    href: /#carousel-107/
+    href: /#carousel-107
   image:
     src: /images/singletons/about/hero/image/src.jpg
     alt: Engineering Residency Planning
