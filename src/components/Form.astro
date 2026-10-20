@@ -5,15 +5,8 @@
  * Netlify detects this form in the built HTML at deploy time. Requirements:
  * `data-netlify`, a hidden `form-name` matching `name`, and form detection
  * enabled in the Netlify UI (Forms → Enable form detection).
- *
- * Select option values are a data contract: see src/lib/content-options.ts.
  */
 import type { CollectionEntry } from 'astro:content';
-import {
-  FORM_FUNDING_OPTIONS,
-  FORM_PERSONA_OPTIONS,
-  FORM_TIMELINE_OPTIONS,
-} from '../lib/content-options';
 
 type FormLabels = CollectionEntry<'contact'>['data']['form'];
 
@@ -23,27 +16,14 @@ interface Props {
 
 const { labels } = Astro.props;
 const FORM_NAME = 'planning';
-
 const req = labels.requiredMarker;
-const selects = [
-  {
-    name: 'persona',
-    label: labels.personaLabel,
-    options: FORM_PERSONA_OPTIONS,
-    autocomplete: 'off',
-  },
-  {
-    name: 'timeline',
-    label: labels.timelineLabel,
-    options: FORM_TIMELINE_OPTIONS,
-    autocomplete: 'off',
-  },
-  {
-    name: 'funding_status',
-    label: labels.fundingLabel,
-    options: FORM_FUNDING_OPTIONS,
-    autocomplete: 'off',
-  },
+
+const partnerships = [
+  { value: 'after-school-stem-partnerships', label: 'After-School STEM Partnerships' },
+  { value: 'summer-stem-partnerships', label: 'Summer STEM Partnerships' },
+  { value: 'engineering-residencies', label: 'Engineering Residencies' },
+  { value: 'pre-ets-workforce-programs', label: 'Pre-ETS Workforce Programs' },
+  { value: 'not-sure-yet', label: 'I’m not sure yet' },
 ];
 ---
 
@@ -99,47 +79,23 @@ const selects = [
     />
   </div>
 
-  <div class="grid gap-2xs">
-    <label for="f-role" class="font-semibold">
-      {labels.roleLabel}
-    </label>
-    <input id="f-role" name="role" type="text" autocomplete="organization-title" class="field" />
-  </div>
-
-  {selects.map((s) => (
-    <div class="grid gap-2xs">
-      <label for={`f-${s.name}`} class="font-semibold">
-        {s.label} {s.name === 'persona' && <span>{req}</span>}
-      </label>
-      <select
-        id={`f-${s.name}`}
-        name={s.name}
-        required={s.name === 'persona'}
-        autocomplete={s.autocomplete}
-        class="field"
-      >
-        <option value="">{labels.selectPrompt}</option>
-        {s.options.map((o) => (
-          <option value={o.value}>{o.label}</option>
-        ))}
-      </select>
+  <fieldset class="grid gap-sm">
+    <legend class="font-semibold">Which partnerships are you interested in?</legend>
+    <p id="partnerships-hint" class="text-sm text-ink-muted">Select all that apply.</p>
+    <div class="grid gap-xs" aria-describedby="partnerships-hint">
+      {partnerships.map((partnership) => (
+        <label class="check-option">
+          <input
+            type="checkbox"
+            name="partnerships"
+            value={partnership.value}
+            class="size-5 shrink-0"
+          />
+          <span>{partnership.label}</span>
+        </label>
+      ))}
     </div>
-  ))}
-
-  <div class="grid gap-2xs">
-    <label for="f-campuses" class="font-semibold">
-      {labels.campusesLabel}
-    </label>
-    <input
-      id="f-campuses"
-      name="campuses"
-      type="number"
-      inputmode="numeric"
-      min="0"
-      step="1"
-      class="field"
-    />
-  </div>
+  </fieldset>
 
   <div class="grid gap-2xs">
     <label for="f-goals" class="font-semibold">
@@ -194,5 +150,12 @@ const selects = [
     border: 1px solid var(--nv-color-border);
     border-radius: var(--nv-radius-sm);
     background: var(--nv-color-surface);
+  }
+
+  .check-option {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--nv-space-sm);
+    cursor: pointer;
   }
 </style>
