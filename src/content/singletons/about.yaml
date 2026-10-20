@@ -1,10 +1,17 @@
 seo:
-  title: '[PLACEHOLDER] About'
-  description: '[PLACEHOLDER] Search result description for the about page.'
+  title: About Nerdvana | STEM Partnerships for Schools
+  description: >-
+    Learn how Nerdvana STEM Education partners with schools, districts, and
+    workforce organizations to deliver hands-on STEM and career-connected
+    learning.
 hero:
-  eyebrow: '[PLACEHOLDER] Eyebrow'
-  heading: '[PLACEHOLDER] About heading'
-  lede: '[PLACEHOLDER] One or two sentences introducing this page. Long enough to show how an intro paragraph wraps across lines.'
+  eyebrow: About Nerdvana
+  heading: Making meaningful STEM learning work for schools and students.
+  lede: >-
+    For ten years, Nerdvana has partnered with schools, districts, and
+    organizations to bring hands-on STEM learning to students. We help our
+    partners plan and deliver programs that fit their goals, setting, and
+    learners.
   primaryAction:
     label: '[PLACEHOLDER] Plan a partnership'
     href: /contact/
@@ -12,43 +19,40 @@ hero:
     label: '[PLACEHOLDER] See programs'
     href: /programs/
   image:
-    src: /images/singletons/about/hero.svg
+    src: /images/singletons/about/hero/image/src.svg
     alt: '[PLACEHOLDER] Description of the about hero image'
 story:
-  heading: '[PLACEHOLDER] Story heading'
-  body: |
-    [PLACEHOLDER] Story paragraph with **bold text** and a [placeholder link](/about/).
-
-    ### [PLACEHOLDER] Subheading
-
-    - [PLACEHOLDER] List item one
-    - [PLACEHOLDER] List item two
-    - [PLACEHOLDER] List item three
+  heading: Experience built through partnership
+  body: >
+    Nerdvana has reached more than 50,000 K–12 students across Texas and India
+    and worked with 25+ school districts, nonprofits, and government
+    organizations across Texas. Our partnerships include after-school and summer
+    STEM programs, engineering residencies, and workforce-readiness programming.
 proof:
-  heading: '[PLACEHOLDER] By the numbers'
   items:
-    - value: '[PLACEHOLDER] 00'
-      label: '[PLACEHOLDER] First metric'
-    - value: '[PLACEHOLDER] 00'
-      label: '[PLACEHOLDER] Second metric'
-    - value: '[PLACEHOLDER] 00'
-      label: '[PLACEHOLDER] Third metric'
+    - value: Over 5,000
+      label: Instructional Hours Delivered!
+    - value: 50,000+
+      label: K-12 Students Directly Served
 gallery:
-  heading: '[PLACEHOLDER] Gallery'
+  heading: Gallery
   images:
-    - image: /images/singletons/about/gallery/gallery-1.svg
-      alt: '[PLACEHOLDER] Description of gallery image 1'
-      caption: '[PLACEHOLDER] Caption 1'
-    - image: /images/singletons/about/gallery/gallery-2.svg
-      alt: '[PLACEHOLDER] Description of gallery image 2'
-      caption: '[PLACEHOLDER] Caption 2'
-    - image: /images/singletons/about/gallery/gallery-3.svg
-      alt: '[PLACEHOLDER] Description of gallery image 3'
-      caption: '[PLACEHOLDER] Caption 3'
+    - image: /images/singletons/about/gallery/images/0/image.jpg
+      alt: Building a Space Rover
+      caption: Building a Space Rover!
+    - image: /images/singletons/about/gallery/images/1/image.jpg
+      alt: 3D Pen Fun
+      caption: Pre-ETS Students & 3D Printing Fun
+    - image: /images/singletons/about/gallery/images/2/image.jpg
+      alt: Exploring Hands-on 3D printing tools
+      caption: Exploring Hands-on 3D printing tools!
+    - image: /images/singletons/about/gallery/images/3/image.jpg
+      alt: Forensics Science - Blood Spatter
+      caption: 'Forensic Science: Blood Spatter Analysis'
 cta:
-  heading: '[PLACEHOLDER] Call-to-action heading'
-  expectation: '[PLACEHOLDER] One line telling the visitor exactly what happens when they click.'
+  heading: Let’s plan a partnership that fits your students.
+  expectation: ' '
   action:
-    label: '[PLACEHOLDER] Start planning'
+    label: Start planning
     href: /contact/
   sourceTag: about-cta
