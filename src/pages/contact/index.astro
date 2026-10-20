@@ -7,6 +7,8 @@ import { getSingleton } from '../../lib/content';
 
 const data = await getSingleton('contact');
 const { contact } = await getSingleton('siteSettings');
+const email = contact.email.trim();
+const phone = contact.phone.trim();
 ---
 
 <BaseLayout title={data.seo.title} description={data.seo.description}>
@@ -14,10 +16,12 @@ const { contact } = await getSingleton('siteSettings');
   <Section heading={data.form.heading} intro={data.form.intro}>
     <Form labels={data.form} />
   </Section>
-  <Section heading={data.direct.heading} intro={data.direct.intro} muted>
-    <address class="grid gap-2xs not-italic">
-      <a href={`mailto:${contact.email}`}>{contact.email}</a>
-      <a href={`tel:${contact.phone.replace(/[^\d+]/g, '')}`}>{contact.phone}</a>
-    </address>
-  </Section>
+  {(email || phone) && (
+    <Section heading={data.direct.heading} intro={data.direct.intro} muted>
+      <address class="grid gap-2xs not-italic">
+        {email && <a href={`mailto:${email}`}>{email}</a>}
+        {phone && <a href={`tel:${phone.replace(/[^\d+]/g, '')}`}>{phone}</a>}
+      </address>
+    </Section>
+  )}
 </BaseLayout>
