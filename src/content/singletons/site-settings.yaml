@@ -48,19 +48,19 @@ footerColumns:
       - label: Privacy
         href: /policies/#privacy
 contact:
-  email: placeholder@example.com
-  phone: +1 000-000-0000
-  street: '[PLACEHOLDER] Street address'
-  city: Edinburg
-  region: TX
-  postalCode: '[PLACEHOLDER] ZIP'
+  email: ' '
+  phone: ' '
 social: []
 copyright: © Copyright NERDVANA {year}. All rights reserved.
 labels:
   skipToContent: Skip to main content
   primaryNavLabel: Main
+  menuButton: Menu
   footerNavLabel: Footer
   socialNavLabel: Social media
+  carouselPrevious: Previous card
+  carouselNext: Next card
+  carouselShow: Show
   offeringAgeRange: '[PLACEHOLDER] Ages'
   offeringSchedule: '[PLACEHOLDER] Schedule'
   offeringPrice: '[PLACEHOLDER] Price'
@@ -76,7 +76,3 @@ labels:
   notFoundTitle: '[PLACEHOLDER] Page not found'
   notFoundBody: '[PLACEHOLDER] The page you were looking for does not exist.'
   notFoundLink: '[PLACEHOLDER] Go to the home page'
-  menuButton: Menu
-  carouselPrevious: Previous card
-  carouselNext: Next card
-  carouselShow: Show
