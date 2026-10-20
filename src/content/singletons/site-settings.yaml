@@ -3,16 +3,6 @@ logo:
   src: /images/site/logo/src.png
   alt: Nerdvana home
 primaryNav:
-  - label: Schools & Districts
-    href: /solutions/
-  - label: Programs
-    href: /programs/
-  - label: Workforce & Pre-ETS
-    href: /workforce/pre-ets/
-  - label: Impact & Resources
-    href: /impact/
-  - label: Families
-    href: /families/parents/
   - label: About
     href: /about/
 headerAction: {}
