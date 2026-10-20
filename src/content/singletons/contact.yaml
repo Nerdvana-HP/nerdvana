@@ -37,11 +37,11 @@ direct:
   heading: ' '
 thanks:
   seo:
-    title: '[PLACEHOLDER] Thank you'
-    description: '[PLACEHOLDER] Search result description for the thank you page.'
-  heading: '[PLACEHOLDER] Thank you heading'
+    title: Inquiry Received | Nerdvana
+    description: Your inquiry has been submitted.
+  heading: Thanks for reaching out.
   body: >-
-    [PLACEHOLDER] One or two sentences confirming receipt and saying what
-    happens next.
+    Your inquiry has been submitted. We’ll review the details you shared and
+    follow up to learn more about your goals and discuss next steps.
   linkLabel: '[PLACEHOLDER] Back to the home page'
   linkHref: /
