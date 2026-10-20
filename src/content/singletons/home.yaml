@@ -36,22 +36,22 @@ spotlight:
   cards:
     - image:
         src: /images/singletons/home/spotlight/cards/0/image/src.jpg
-        alt: '[PLACEHOLDER] Description of card 1 image'
+        alt: After-School STEM Partnerships
       label: After-School STEM Partnerships
       href: /contact/
     - image:
         src: /images/singletons/home/spotlight/cards/1/image/src.jpg
-        alt: '[PLACEHOLDER] Description of card 2 image'
+        alt: Summer STEM Partnerships
       label: Summer STEM Partnerships
       href: /contact/
     - image:
         src: /images/singletons/home/spotlight/cards/2/image/src.jpg
-        alt: '[PLACEHOLDER] Description of card 3 image'
+        alt: Engineering Residencies
       label: Engineering Residencies
       href: /contact/
     - image:
         src: /images/singletons/home/spotlight/cards/3/image/src.jpg
-        alt: '[PLACEHOLDER] Description of card 4 image'
+        alt: Pre-ETS Workforce Programs
       label: Pre-ETS Workforce Programs
       href: /contact/
 story:
