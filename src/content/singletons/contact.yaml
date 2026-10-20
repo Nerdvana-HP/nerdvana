@@ -4,27 +4,32 @@ seo:
 hero:
   eyebrow: '[PLACEHOLDER] Eyebrow'
   heading: '[PLACEHOLDER] Planning & contact heading'
-  lede: '[PLACEHOLDER] One or two sentences introducing this page. Long enough to show how an intro paragraph wraps across lines.'
+  lede: >-
+    [PLACEHOLDER] One or two sentences introducing this page. Long enough to
+    show how an intro paragraph wraps across lines.
   primaryAction: {}
   secondaryAction: {}
   image: {}
 form:
-  heading: '[PLACEHOLDER] Planning form'
-  intro: '[PLACEHOLDER] One line about what the form is for and what happens after.'
-  requiredNote: '[PLACEHOLDER] Fields marked (required) must be filled in.'
-  requiredMarker: '[PLACEHOLDER] (required)'
-  nameLabel: '[PLACEHOLDER] Name'
-  emailLabel: '[PLACEHOLDER] Email'
-  organizationLabel: '[PLACEHOLDER] Organization'
+  heading: Tell us about your goals
+  intro: >-
+    Choose the partnership options you’re exploring, then tell us a little about
+    your students or goals. If you’re not sure which option fits, select “I’m
+    not sure yet” and we’ll help you think it through.
+  requiredNote: Fields marked (required) must be filled in.
+  requiredMarker: (required)
+  nameLabel: Name
+  emailLabel: Work email
+  organizationLabel: School, district, or organization
   roleLabel: '[PLACEHOLDER] Role'
   personaLabel: '[PLACEHOLDER] I am a…'
   campusesLabel: '[PLACEHOLDER] Number of campuses'
   timelineLabel: '[PLACEHOLDER] Timeline'
   fundingLabel: '[PLACEHOLDER] Funding status'
-  goalsLabel: '[PLACEHOLDER] Goals'
-  consentLabel: '[PLACEHOLDER] I agree to be contacted about my request.'
+  goalsLabel: What are you hoping to accomplish?
+  consentLabel: I agree to be contacted about my request.
   selectPrompt: '[PLACEHOLDER] Choose one'
-  submitLabel: '[PLACEHOLDER] Send'
+  submitLabel: Send inquiry
 direct:
   heading: '[PLACEHOLDER] Contact us directly'
   intro: '[PLACEHOLDER] One line about direct contact.'
@@ -33,6 +38,8 @@ thanks:
     title: '[PLACEHOLDER] Thank you'
     description: '[PLACEHOLDER] Search result description for the thank you page.'
   heading: '[PLACEHOLDER] Thank you heading'
-  body: '[PLACEHOLDER] One or two sentences confirming receipt and saying what happens next.'
+  body: >-
+    [PLACEHOLDER] One or two sentences confirming receipt and saying what
+    happens next.
   linkLabel: '[PLACEHOLDER] Back to the home page'
   linkHref: /
