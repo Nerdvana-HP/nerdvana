@@ -32,6 +32,7 @@ const {
 } = Astro.props;
 const Heading = headingLevel === 1 ? 'h1' : 'h2';
 const id = uid('hero');
+const portraitHeroImage = image?.src === '/images/singletons/home/spotlight/cards/3/image/src.jpg';
 const show = (a?: Action): a is Required<Action> => Boolean(a?.label && a.href);
 ---
 
@@ -64,7 +65,7 @@ const show = (a?: Action): a is Required<Action> => Boolean(a?.label && a.href);
         alt={image.alt}
         width="1600"
         height="900"
-        class="placeholder-media aspect-video rounded-md"
+        class:list={['placeholder-media rounded-md', portraitHeroImage ? 'aspect-[3/4] object-top' : 'aspect-video']}
         fetchpriority={headingLevel === 1 ? 'high' : undefined}
         loading={headingLevel === 1 ? 'eager' : 'lazy'}
         decoding="async"
