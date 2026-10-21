@@ -1,0 +1,48 @@
+title: Engineering Residencies
+seoTitle: Engineering Residencies | Nerdvana
+seoDescription: Give students time to define an engineering challenge, build a prototype, test ideas, and improve a solution with Nerdvana.
+blocks:
+  - discriminant: hero
+    value:
+      eyebrow: Engineering Residencies
+      heading: Give students time to take an engineering idea further.
+      lede: >-
+        An engineering residency gives students a structured challenge and the time
+        to work through it—from defining the problem to building, testing, and
+        improving a solution.
+      primaryAction:
+        label: Discuss an Engineering Residency
+        href: /contact/
+      image:
+        src: /images/singletons/home/spotlight/cards/2/image/src.jpg
+        alt: Students working together on an engineering and aviation experience
+  - discriminant: richText
+    value:
+      heading: From concept to prototype
+      body: >-
+        Students consider the challenge and its constraints, sketch possible
+        solutions, build a prototype, test what happens, and make improvements.
+        Along the way, they practice thinking like engineers: asking questions,
+        working through setbacks, and explaining their decisions.
+  - discriminant: richText
+    value:
+      heading: A deeper project experience
+      body: >-
+        Nerdvana works with your team to shape the challenge, schedule, and scope
+        around your students and learning setting. The focus might be space
+        engineering, aviation, product design, robotics, or another challenge that
+        connects with your goals.
+  - discriminant: richText
+    value:
+      heading: Student ideas, made tangible
+      body: >-
+        A residency gives students the chance to make their thinking visible through
+        designs, prototypes, testing, and a final presentation or demonstration.
+  - discriminant: ctaBand
+    value:
+      heading: Let’s plan a residency
+      expectation: Tell us what your students are working toward. We’ll help shape an engineering residency that fits your setting and goals.
+      action:
+        label: Discuss an Engineering Residency
+        href: /contact/
+      sourceTag: engineering-residency-cta
