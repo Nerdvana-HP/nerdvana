@@ -5,6 +5,14 @@ logo:
 primaryNav:
   - label: About
     href: /about/
+  - label: After-School STEM
+    href: /after-school-stem/
+  - label: Summer STEM
+    href: /summer-stem/
+  - label: Engineering Residencies
+    href: /engineering-residencies/
+  - label: Pre-ETS Workforce Programs
+    href: /pre-ets-workforce-programs/
 headerAction: {}
 footerTagline: Learn. Play. Work. Innovate.
 footerLocation: Edinburg, Texas
