@@ -14,8 +14,8 @@ blocks:
         label: Plan a Pre-ETS Partnership
         href: /contact/
       image:
-        src: /images/singletons/home/spotlight/cards/2/image/src.jpg
-        alt: Participant in protective gear using a tool during a hands-on technical project
+        src: /images/singletons/home/spotlight/cards/3/image/src.jpg
+        alt: Student holding a model aircraft during a hands-on STEM project
   - discriminant: richText
     value:
       heading: Learning by doing
