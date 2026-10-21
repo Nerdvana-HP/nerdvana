@@ -1,0 +1,49 @@
+title: Pre-ETS Workforce Programs
+seoTitle: Pre-ETS Workforce Programs | Nerdvana
+seoDescription: Explore hands-on technical learning and career-readiness experiences through Nerdvana Pre-ETS partnerships.
+blocks:
+  - discriminant: hero
+    value:
+      eyebrow: Pre-ETS Workforce Programs
+      heading: Connect hands-on technical learning with career readiness.
+      lede: >-
+        Nerdvana works with VR and school partners to give students with disabilities
+        practical opportunities to explore technical work and practice workplace-
+        ready skills through structured projects.
+      primaryAction:
+        label: Plan a Pre-ETS Partnership
+        href: /contact/
+      image:
+        src: /images/singletons/home/spotlight/cards/3/image/src.jpg
+        alt: Students exploring technical projects and workplace-readiness skills
+  - discriminant: richText
+    value:
+      heading: Learning by doing
+      body: >-
+        Students may work through activities involving engineering design, coding,
+        robotics, drone automation, or 3D design. Project work can give them
+        opportunities to practice communication, collaboration, problem-solving,
+        and completing tasks.
+  - discriminant: richText
+    value:
+      heading: Coordinated with your partners
+      body: >-
+        We coordinate with the responsible VR and school partners to align the
+        experience with student needs, the schedule, and the approved service plan.
+        Program authorization, referrals, and required documentation follow the
+        process established by those partners.
+  - discriminant: richText
+    value:
+      heading: A practical way to explore
+      body: >-
+        Hands-on projects can help students encounter technical tools and work
+        through real tasks in a supportive learning environment. The experience is
+        planned with the partner team around the students being served.
+  - discriminant: ctaBand
+    value:
+      heading: Let’s plan a Pre-ETS program
+      expectation: Tell us about your students and goals. We’ll work with your team to discuss a Pre-ETS experience that fits the approved plan and setting.
+      action:
+        label: Plan a Pre-ETS Partnership
+        href: /contact/
+      sourceTag: pre-ets-workforce-cta
