@@ -38,22 +38,22 @@ spotlight:
         src: /images/singletons/home/spotlight/cards/0/image/src.jpg
         alt: After-School STEM Partnerships
       label: After-School STEM Partnerships
-      href: /contact/
+      href: /after-school-stem/
     - image:
         src: /images/singletons/home/spotlight/cards/1/image/src.jpg
         alt: Summer STEM Partnerships
       label: Summer STEM Partnerships
-      href: /contact/
+      href: /summer-stem/
     - image:
         src: /images/singletons/home/spotlight/cards/2/image/src.jpg
         alt: Engineering Residencies
       label: Engineering Residencies
-      href: /contact/
+      href: /engineering-residencies/
     - image:
         src: /images/singletons/home/spotlight/cards/3/image/src.jpg
         alt: Pre-ETS Workforce Programs
       label: Pre-ETS Workforce Programs
-      href: /contact/
+      href: /pre-ets-workforce-programs/
 story:
   eyebrow: Programs Built Around Partnership
   heading: Four Offerings. A Range of STEM Experiences.
