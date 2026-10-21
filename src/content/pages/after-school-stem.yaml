@@ -1,0 +1,48 @@
+title: After-School STEM Partnerships
+seoTitle: After-School STEM Partnerships | Nerdvana
+seoDescription: Explore hands-on after-school STEM partnerships designed around your students, school-year schedule, and program goals.
+blocks:
+  - discriminant: hero
+    value:
+      eyebrow: After-School STEM Partnerships
+      heading: Build a school-year STEM program students look forward to.
+      lede: >-
+        Nerdvana works with schools and districts to plan and deliver hands-on STEM
+        enrichment that fits your after-school goals, students, and schedule.
+      primaryAction:
+        label: Plan an After-School Partnership
+        href: /contact/
+      image:
+        src: /images/singletons/home/spotlight/cards/0/image/src.jpg
+        alt: Students building and exploring hands-on STEM projects after school
+  - discriminant: richText
+    value:
+      heading: Make the time after school count
+      body: >-
+        Students learn by doing: exploring a challenge, trying an idea, seeing what
+        works, and improving their solution. Nerdvana helps partners shape those
+        experiences into a structured program that gives students a reason to stay
+        curious and keep building.
+  - discriminant: richText
+    value:
+      heading: Designed with your team
+      body: >-
+        We start with the basics: the students you want to reach, your program goals,
+        the campus schedule, and the kind of experience you want to create. From
+        there, we plan a program that fits your setting and define how Nerdvana and
+        your team will work together.
+  - discriminant: richText
+    value:
+      heading: Experiences students can build on
+      body: >-
+        A partnership might include robotics, drones, coding, engineering design,
+        3D design, forensics, or a combination of experiences selected around your
+        goals.
+  - discriminant: ctaBand
+    value:
+      heading: Let’s plan your program
+      expectation: Tell us what you’re hoping to accomplish. We’ll help you explore an after-school STEM partnership that fits your students and setting.
+      action:
+        label: Plan an After-School Partnership
+        href: /contact/
+      sourceTag: after-school-stem-cta
