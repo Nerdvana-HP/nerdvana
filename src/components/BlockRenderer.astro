@@ -75,7 +75,12 @@ const rendered = await Promise.all(
   const { block } = r;
   switch (block.discriminant) {
     case 'hero':
-      return <Hero {...block.value} headingLevel={r.index === 0 ? 1 : 2} />;
+      return (
+        <>
+          <Hero {...block.value} headingLevel={r.index === 0 ? 1 : 2} />
+          {r.index === 0 && <slot name="after-hero" />}
+        </>
+      );
     case 'proofStrip':
       return <ProofStrip {...block.value} />;
     case 'audienceRouter':
