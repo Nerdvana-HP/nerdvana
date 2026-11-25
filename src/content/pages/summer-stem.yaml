@@ -1,0 +1,47 @@
+title: Summer STEM Partnerships
+seoTitle: Summer STEM Partnerships | Nerdvana
+seoDescription: Bring hands-on STEM into summer learning with a program shaped around your students, schedule, and district goals.
+blocks:
+  - discriminant: hero
+    value:
+      eyebrow: Summer STEM Partnerships
+      heading: Bring hands-on STEM into your summer learning program.
+      lede: >-
+        Nerdvana partners with schools and districts to create engaging STEM
+        experiences that fit the students, schedule, and goals of summer learning.
+      primaryAction:
+        label: Plan a Summer STEM Partnership
+        href: /contact/
+      image:
+        src: /images/singletons/home/spotlight/cards/1/image/src.jpg
+        alt: Students collaborating on a hands-on summer STEM project
+  - discriminant: richText
+    value:
+      heading: More than a one-day activity
+      body: >-
+        Students get to explore a challenge, build and test ideas, and share what
+        they’ve learned. A summer partnership can connect hands-on activities into
+        a more complete experience, with the scope planned around your program’s
+        time and setting.
+  - discriminant: richText
+    value:
+      heading: Built around your summer program
+      body: >-
+        We’ll work with your team to understand the students you want to serve, your
+        calendar, and what you want them to take away. Then we’ll shape a STEM
+        experience that fits the way your summer program operates.
+  - discriminant: richText
+    value:
+      heading: What students might explore
+      body: >-
+        Depending on your goals, experiences could include rockets, robotics,
+        coding, rover design, drone automation, space engineering, or other
+        hands-on challenges.
+  - discriminant: ctaBand
+    value:
+      heading: Let’s plan your summer
+      expectation: Share your summer program goals with us. We’ll help you think through a STEM partnership that works for your students and schedule.
+      action:
+        label: Plan a Summer STEM Partnership
+        href: /contact/
+      sourceTag: summer-stem-cta

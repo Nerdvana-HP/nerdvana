@@ -10,9 +10,8 @@
  * Shared option lists and validation patterns live in
  * `src/lib/content-options.ts` and are imported by both files.
  *
- * Storage is `local`: the admin edits files in this repo and only runs under
- * `npm run dev` (see astro.config.mjs). TODO: switch to `github` storage when
- * the client edits without a developer machine.
+ * GitHub-backed editing for Nerdvana. Requires the Keystatic GitHub App and
+ * KEYSTATIC_* environment variables configured securely in Netlify.
  */
 import { collection, config, fields, singleton } from '@keystatic/core';
 import {
@@ -444,7 +443,7 @@ const familyPage = (label: string, name: string) =>
 /* ------------------------------------------------------------------------ */
 
 export default config({
-  storage: { kind: 'local' },
+  storage: { kind: 'github', repo: 'Nerdvana-HP/nerdvana' },
   ui: {
     brand: { name: 'Nerdvana' },
     navigation: {
