@@ -1,5 +1,5 @@
 # Netlify build settings. The @astrojs/netlify adapter adds function config
-# automatically at build time; nothing else needs to live here.
+# automatically at build time.
 
 [build]
   command = "npm run build"
@@ -10,3 +10,13 @@
   # 22.x, so security patches arrive without a config change. Keep in sync
   # with .nvmrc and "engines" in package.json.
   NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/preets"
+  to = "/pre-ets-workforce-programs/"
+  status = 301
+
+[[redirects]]
+  from = "/preets/"
+  to = "/pre-ets-workforce-programs/"
+  status = 301
