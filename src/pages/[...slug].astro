@@ -24,7 +24,7 @@ interface Props {
   page: CollectionEntry<'pages'>;
 }
 
-const { data } = Astro.props.page;
+const { id, data } = Astro.props.page;
 const heroFirst = data.blocks[0]?.discriminant === 'hero';
 ---
 
@@ -34,5 +34,20 @@ const heroFirst = data.blocks[0]?.discriminant === 'hero';
       <h1>{data.title}</h1>
     </div>
   )}
-  <BlockRenderer blocks={data.blocks} />
+  <BlockRenderer blocks={data.blocks}>
+    <Fragment slot="after-hero">
+      {id === 'pre-ets-workforce-programs' && (
+        <div class="container-page py-xl">
+          <iframe
+            class="mx-auto block aspect-video w-full max-w-4xl rounded-xl bg-black"
+            src="https://www.youtube-nocookie.com/embed/_dW9rNm0QEM"
+            title="Pre-ETS Workforce Programs video"
+            loading="lazy"
+            allow="encrypted-media; picture-in-picture; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+      )}
+    </Fragment>
+  </BlockRenderer>
 </BaseLayout>
